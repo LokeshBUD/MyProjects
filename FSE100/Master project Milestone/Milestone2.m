@@ -5,7 +5,6 @@ while 1
     green = ((color_rgb(1) > 21) && (color_rgb(2) > 105) && (color_rgb(3) > 50));
     blue = ((color_rgb(1) > 21) && (color_rgb(2) > 95) && (color_rgb(3) > 100));
     pause(0.1);
-    disp("suck my nuts");
     disp(color_rgb);
     if (red)
         brick.StopMotor('AB');
